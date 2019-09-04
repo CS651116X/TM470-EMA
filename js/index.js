@@ -89,7 +89,7 @@ function IsStuntDie() {
 
 //resets the output display and the various arrays are returned to their initial value
 function OutputDisplayReset() {
-	$("#output").textContent('');
+	$("output").textContent('');
 	total = 0;
 	tableRow = 1;
 	outputTable.length = 1;
