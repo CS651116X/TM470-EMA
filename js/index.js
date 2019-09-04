@@ -465,7 +465,7 @@ function rolld20(quan, row){
 }
 
 
-$(function(){
+(function(){
 
 	//Dice roller
 	$("#rollSelected").click(function() {
