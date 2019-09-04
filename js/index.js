@@ -59,6 +59,8 @@ var total = 0;
 var totalQuantity = 0;
 var tableRow = 1;
 
+function $(x) {return document.getElementById(x);} 
+
 //The main random number generation function
 function NumRand(low, range) {
 	var answer = Math.floor(Math.random()*range) + low;
@@ -87,7 +89,7 @@ function IsStuntDie() {
 
 //resets the output display and the various arrays are returned to their initial value
 function OutputDisplayReset() {
-	document.getElementById("output").text('');
+	$("#output").text('');
 	total = 0;
 	tableRow = 1;
 	outputTable.length = 1;
